@@ -1,0 +1,1826 @@
+[    1.651657@3]- meson-mmc: emmc: mmc_select_hs200 failed, error -74
+[    1.652924@3]- emmc: new MMC card at address 0001
+[    1.666781@1]- emmc: clock 25000000, 8-bit-bus-width
+[    1.666781@1]-
+[    1.676582@2]- NET: Registered protocol family 38
+[    1.677257@2]- Key type asymmetric registered
+[    1.681623@2]- Asymmetric key parser 'x509' registered
+[    1.687076@2]- Block layer SCSI generic (bsg) driver version 0.4 loaded (major 241)
+[    1.694502@2]- io scheduler noop registered (default)
+[    1.699605@2]- io scheduler deadline registered
+[    1.704326@2]- io scheduler cfq registered
+[    1.711391@3]d random: fast init done
+[    1.711829@2]- [drm] Initialized
+[    1.711985@2]- Unable to detect cache hierarchy for CPU 0
+[    1.719737@2]- loop: module loaded
+[    1.724152@3]- meson-mmc: card IN
+[    1.724760@2]- mtdoops: mtd device (mtddev=name/number) must be supplied
+[    1.725997@2]- libphy: Fixed MDIO Bus: probed
+[    1.726702@1]- random: crng init done
+[    1.727346@2]-  ee eth reset:Addr = 0000000055a724ae
+[    1.727655@2]- meson6-dwmac c9410000.ethernet: no reset control found
+[    1.727662@2]- stmmac - user ID: 0x11, Synopsys ID: 0x37
+[    1.727664@2]-  Ring mode enabled
+[    1.727671@2]-  DMA HW capability register supported
+[    1.727672@2]-  Normal descriptors
+[    1.727673@2]-  RX Checksum Offload Engine supported
+[    1.727675@2]-       COE Type 2
+[    1.727676@2]-  TX Checksum insertion supported
+[    1.727678@2]-  Wake-Up On Lan supported
+[    1.727735@2]-  Enable RX Mitigation via HW Watchdog Timer
+[    1.730893@2]- libphy: stmmac: probed
+[    1.730901@2]- eth%d: PHY ID 01814400 at 8 IRQ POLL (stmmac-0:08) active
+[    1.733593@2]- ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.733599@2]- ehci-pci: EHCI PCI platform driver
+[    1.733684@2]- ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.733730@2]- ohci-pci: OHCI PCI platform driver
+[    1.734302@2]- usbcore: registered new interface driver cdc_acm
+[    1.734305@2]- cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    1.734403@2]- usbcore: registered new interface driver usb-storage
+[    1.734600@2]- usbcore: registered new interface driver usbserial
+[    1.734676@2]- usbcore: registered new interface driver usbserial_generic
+[    1.734715@2]- usbserial: USB Serial support registered for generic
+[    1.735491@2]- mousedev: PS/2 mouse device common for all mice
+[    1.736125@2]- i2c /dev entries driver
+[    1.737445@2]- cpu cpu0: bL_cpufreq_init: CPU 0 initialized
+[    1.737556@2]- arm_big_little: bL_cpufreq_register: Registered platform driver: scpi
+[    1.739687@2]- mmcblk0: emmc:0001 DF4016 14.7 GiB
+[    1.739910@2]- mmcblk0boot0: emmc:0001 DF4016 partition 1 4.00 MiB
+[    1.756942@1]- mmcblk0boot1: emmc:0001 DF4016 partition 2 4.00 MiB
+[    1.757344@1]- mmcblk0rpmb: emmc:0001 DF4016 partition 3 4.00 MiB
+[    1.761465@0]- meson-mmc: Enter aml_emmc_partition_ops
+[    1.763310@0]- meson-mmc: [mmc_read_partition_tbl] mmc read partition OK!
+[    1.763312@0]- meson-mmc: add_emmc_partition
+[    1.765604@1]- card key: card_blk_probe.
+[    1.765635@1]- emmc_key_init:493 emmc key lba_start:0x12020,lba_end:0x12422
+[    1.767924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    1.767932@0]h fb: osd rdma restart! 0x0
+[    1.778278@0]- calc 4d585cef12, store 0
+[    1.778283@0]- cpy 1 is not valid
+[    1.791353@0]- calc 4d585cef12, store 0
+[    1.791358@0]- cpy 0 is not valid
+[    1.791380@0]- emmc key: emmc_key_init:519 ok.
+[    1.816292@0]- meson-mmc: amlmmc_dtb_init: register dtb chardev
+[    1.816293@0]- meson-mmc: total valid 2
+[    1.816783@2]- meson-mmc: amlmmc_dtb_init: register dtb chardev OK
+[    1.817203@2]- meson-mmc: amlmmc_ddr_init: register ddr_parameter chardev
+[    1.817275@2]- meson-mmc: amlmmc_ddr_init: register ddr parameter chardev OK
+[    1.817276@2]- meson-mmc: Exit aml_emmc_partition_ops OK.
+[    1.825501@1]- ledtrig-cpu: registered to indicate activity on CPUs
+[    1.826549@1]- hidraw: raw HID events driver (C) Jiri Kosina
+[    1.827141@0]- usbcore: registered new interface driver usbhid
+[    1.827146@0]- usbhid: USB HID core driver
+[    1.827876@0]- c81004c0.serial: clock gate not found
+[    1.827984@0]- meson_uart c81004c0.serial: ==uart0 reg addr = 00000000b34d3afb
+[    1.828046@0]- c81004c0.serial: ttyS0 at MMIO 0xc81004c0 (irq = 20, base_baud = 1500000) is a meson_uart
+[    2.052430@0]- meson_uart c81004c0.serial: ttyS0 use xtal(8M) 24000000 change 0 to 115200
+[    2.055115@0]- console [ttyS0] enabled
+[    2.055115@0]- console [ttyS0] enabled
+[    2.062472@0]- bootconsole [aml_uart0] disabled
+[    2.062472@0]- bootconsole [aml_uart0] disabled
+[    2.072169@1]- c11084c0.serial: clock gate not found
+[    2.076496@1]- meson_uart c11084c0.serial: ==uart1 reg addr = 00000000aa3d70bd
+[    2.083586@1]- c11084c0.serial: ttyS1 at MMIO 0xc11084c0 (irq = 21, base_baud = 10416666) is a meson_uart
+[    2.094551@2]- amlogic-new-usb2 d0078000.usb2phy: USB2 phy probe:phy_mem:0xd0078000, iomap phy_base:0xffffff800853a000
+[    2.104024@2]- amlogic-new-usb3 d0078080.usb3phy: This phy has no usb port
+[    2.110483@2]- amlogic-new-usb3 d0078080.usb3phy: USB3 phy probe:phy_mem:0xd0078080, iomap phy_base:0xffffff800853e080
+[    2.123912@2]- aml_dma c883e000.aml_dma: Aml dma
+[    2.127685@1]- aml_aes_dma c883e000.aml_dma:aml_aes: Aml AES_dma
+[    2.132901@1]- aml_tdes_dma c883e000.aml_dma:aml_tdes: Aml TDES_dma
+[    2.139003@1]- gpio-keypad gpio_keypad: power key(116) registed.
+[    2.143981@1]- input: gpio_keypad as /devices/platform/gpio_keypad/input/input0
+[    2.151905@3]- meson-mmc: normal card in
+[    2.155120@0]- ion_dev ion_dev: assigned reserved memory node linux,ion-dev
+[    2.161810@0]- ion-dev: failed get fb memory
+[    2.165996@0]- ion-dev: failed get secure memory
+[    2.171009@0]- ion-dev: add heap type:0 id:0
+[    2.174929@0]- ion-dev: add heap type:5 id:5
+[    2.179164@0]- ion-dev: add heap type:4 id:4
+[    2.183233@0]- ion-dev: dev_ion_probe, create 3 heaps
+[    2.188233@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    2.188239@0]h fb: osd rdma restart! 0x0
+[    2.198417@0]- ge2d: ge2d_init_module
+[    2.202818@0]- ge2d: ge2d clock is 400 MHZ
+[    2.205860@0]- ge2d: register address resource is not found
+[    2.211369@0]- ge2d: reserved mem is not used
+[    2.215718@0]- ge2d: ge2d start monitor
+[    2.220303@0]- new arch is :0.[    2.222480@0]- [tsync_pcr_init]init success.
+[    2.227015@0]- amvideom vsync irq: 30, cpu_type:1
+[    2.231259@0]- create_ge2d_work_queue video task ok
+[    2.237140@0]- create_video_receiver video_render.0  000000007ecae912, path_id:2 success
+[    2.244064@0]- create_video_receiver video_render.1  00000000c09f6bb1, path_id:3 success
+[    2.252658@0]- amvideocap_probe,amvideocap
+[    2.256124@0]- use cma buf.
+[    2.259238@0]- hdmitx: hdcp: hdmitx_hdcp_init
+[    2.264194@0]- DI: di_module_init ok.
+[    2.267184@0]- DI: di_probe:
+[    2.269742@0]- DI: di_probe: major 506
+[    2.273697@0]- match name: di_deinterlace:id[255]
+[    2.278136@0]- deinterlace deinterlace: assigned reserved memory node linux,di_cma
+[    2.285531@0]- di:flag_cma=1
+[    2.288406@0]h dil:err:DI_POST_REG_RD:not attach
+[    2.292936@0]- DI: CMA size 0x2000000.
+[    2.296655@0]- pre_irq:44
+[    2.299270@0]- post_irq:45
+[    2.302043@0]- DI: di_probe allocate rdma channel 0.
+[    2.306926@0]- di_get_vpu_clkb: get clk vpu error.
+[    2.311601@0]h dil:err:DI_POST_REG_RD:not attach
+[    2.316246@0]- DI: vpu clkb <250000000, 500000000>
+[    2.320995@0]- di_get_vpu_clkb: get vpu clkb gate error.
+[    2.326265@0]- Unable to handle kernel paging request at virtual address fffffffffffffffe
+[    2.334281@0]h dil:err:DI_POST_REG_RD:not attach
+[    2.338911@0]- pgd = 0000000028a0994f
+[    2.342440@0]- [fffffffffffffffe] *pgd=0000000000000000, *pud=0000000000000000[    2.349433@0]h dil:err:DI_POST_REG_RD:not attach
+[    2.354006@0]d Internal error: Oops: 96000005 [#1] PREEMPT SMP
+[    2.359765@0]d Modules linked in:
+[    2.363046@0]d CPU: 0 PID: 1 Comm: swapper/0 Not tainted 4.9.269 #1
+[    2.369250@0]d Hardware name: Amlogic (DT)
+[    2.373305@0]d task: 000000003b2b9033 task.stack: 00000000a3ff826c
+[    2.379441@0]d PC is at clk_prepare+0x20/0x60
+[    2.383747@0]d LR is at di_probe+0x514/0xf58
+[    2.387969@0]d R0  : ffffff8009d3b1dc, PFN: 1d3b
+[    2.392539@0]d R4  : ffffff80082e2000, PFN: 74b8
+[    2.397109@0]d R9  : ffffff800ae0f000, PFN: 2e0f
+[    2.401681@0]d R12 : ffffff800ae0efee, PFN: 2e0e
+[    2.406252@0]d R20 : ffffff800af0ff98, PFN: 2f0f
+[    2.410823@0]d R26 : ffffff800af0f000, PFN: 2f0f
+[    2.415394@0]d R30 : ffffff8009d3b1dc, PFN: 1d3b
+[    2.419966@0]d pc : [<ffffff800954d8e0>] lr : [<ffffff8009d3b1dc>] pstate: 40000045
+[    2.427555@0]d sp : ffffffc000287ba0
+[    2.431091@0]d x29: ffffffc000287ba0 x28: ffffffc033a18000
+[    2.436611@0]d x27: ffffff800a34c250 x26: ffffff800af0f000
+[    2.442131@0]d x25: ffffffc01eddc810 x24: ffffffc01eddc800
+[    2.447651@0]d x23: ffffff8009e53a78 x22: fffffffffffffffe
+[    2.453171@0]d x21: ffffff800ad437d0 x20: ffffff800af0ff98
+[    2.458691@0]d x19: fffffffffffffffe x18: 00000000fffffffe
+[    2.464211@0]d x17: 0000000000000007 x16: 000000000000000e
+[    2.469731@0]d x15: 0000000000000020 x14: ffffffffffffffff
+[    2.475251@0]d x13: ffffff808ae0efdf x12: ffffff800ae0efee
+[    2.480771@0]d x11: 000000000000018b x10: ffffff800a285798
+[    2.486291@0]d x9 : ffffff800ae0f000 x8 : ffffff8009422ee0
+[    2.491811@0]d x7 : ffffff800ac99cb8 x6 : 000000000000003c
+[    2.497331@0]d x5 : 0000000000000000 x4 : ffffff80082e2000
+[    2.502851@0]d x3 : 000000000000018b x2 : ffffff800ac2f9a8
+[    2.508371@0]d x1 : ffffffc000288000 x0 : ffffff8009d3b1dc
+[    2.513893@0]d
+[    2.513893@0]d SP: 0xffffffc000287b20:
+[    2.519324@0]d 7b20  fffffffe ffffffff 09e53a78 ffffff80 1eddc800 ffffffc0 1eddc810 ffffffc0
+[    2.527691@0]d 7b40  0af0f000 ffffff80 0a34c250 ffffff80 33a18000 ffffffc0 00287ba0 ffffffc0
+[    2.536057@0]d 7b60  09d3b1dc ffffff80 00287ba0 ffffffc0 0954d8e0 ffffff80 40000045 00000000
+[    2.544423@0]d 7b80  33a10000 ffffffc0 09e54128 ffffff80 ffffffff ffffffff b2d72610 36c6f636
+[    2.552790@0]d 7ba0  00287bc0 ffffffc0 09d3b1dc ffffff80 33a10000 ffffffc0 646c606d fefefeff
+[    2.561156@0]d 7bc0  00287c30 ffffffc0 095e1294 ffffff80 fffffffe 00000000 1eddc810 ffffffc0
+[    2.569522@0]d 7be0  0ad437d8 ffffff80 0ad43800 ffffff80 0aed5ac8 ffffff80 00000000 00000000
+[    2.577888@0]d 7c00  0a71037c ffffff80 0a7d9f60 ffffff80 00000000 00000000 00000000 00000000
+[    2.586256@0]d
+[    2.586256@0]d X1: 0xffffffc000287f80:
+[    2.591688@0]d 7f80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.600054@0]d 7fa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.608421@0]d 7fc0  00000000 00000000 00000005 00000000 00000000 00000000 00000000 00000000
+[    2.616787@0]d 7fe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.625153@0]d 8000  00000010 00000000 ffffffff ffffffff 00000001 00000000 00000000 00000000
+[    2.633519@0]d 8020  00284000 ffffffc0 00000002 00200140 00000000 00000000 00000000 00000000
+[    2.641885@0]d 8040  00000001 00000000 00000138 00000000 fffedd0f 00000000 0028d580 ffffffc0
+[    2.650252@0]d 8060  00000000 00000001 00000078 00000078 00000078 00000000 09d695b8 ffffff80
+[    2.658627@0]d
+[    2.658627@0]d X24: 0xffffffc01eddc780:
+[    2.664138@0]d c780  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.672504@0]d c7a0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.680870@0]d c7c0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.689237@0]d c7e0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.697603@0]d c800  1edd64c0 ffffffc0 ffffffff 00000000 0acb9188 ffffff80 1ee19b40 ffffffc0
+[    2.705969@0]d c820  1edd64c0 ffffffc0 1eddcc28 ffffffc0 1eddc428 ffffffc0 0acb9198 ffffff80
+[    2.714335@0]d c840  00194d80 ffffffc0 0acb8eb8 ffffff80 1ee03ac8 ffffffc0 00000005 00000007
+[    2.722702@0]d c860  00000000 00000000 00000000 00000000 00000000 00000000 1eddc878 ffffffc0
+[    2.731069@0]d
+[    2.731069@0]d X25: 0xffffffc01eddc790:
+[    2.736588@0]d c790  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.744954@0]d c7b0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.753321@0]d c7d0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.761687@0]d c7f0  00000000 00000000 00000000 00000000 1edd64c0 ffffffc0 ffffffff 00000000
+[    2.770053@0]d c810  0acb9188 ffffff80 1ee19b40 ffffffc0 1edd64c0 ffffffc0 1eddcc28 ffffffc0
+[    2.778419@0]d c830  1eddc428 ffffffc0 0acb9198 ffffff80 00194d80 ffffffc0 0acb8eb8 ffffff80
+[    2.786785@0]d c850  1ee03ac8 ffffffc0 00000005 00000007 00000000 00000000 00000000 00000000
+[    2.795152@0]d c870  00000000 00000000 1eddc878 ffffffc0 1eddc878 ffffffc0 00288000 ffffffc0
+[    2.803520@0]d
+[    2.803520@0]d X28: 0xffffffc033a17f80:
+[    2.809038@0]d 7f80  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.817404@0]d 7fa0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.825770@0]d 7fc0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.834137@0]d 7fe0  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.842503@0]d 8000  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.850869@0]d 8020  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.859235@0]d 8040  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.867602@0]d 8060  00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+[    2.875969@0]d
+[    2.875969@0]d X29: 0xffffffc000287b20:
+[    2.881488@0]d 7b20  fffffffe ffffffff 09e53a78 ffffff80 1eddc800 ffffffc0 1eddc810 ffffffc0
+[    2.889854@0]d 7b40  0af0f000 ffffff80 0a34c250 ffffff80 33a18000 ffffffc0 00287ba0 ffffffc0
+[    2.898220@0]d 7b60  09d3b1dc ffffff80 00287ba0 ffffffc0 0954d8e0 ffffff80 40000045 00000000
+[    2.906587@0]d 7b80  33a10000 ffffffc0 09e54128 ffffff80 ffffffff ffffffff b2d72610 36c6f636
+[    2.914953@0]d 7ba0  00287bc0 ffffffc0 09d3b1dc ffffff80 33a10000 ffffffc0 646c606d fefefeff
+[    2.923319@0]d 7bc0  00287c30 ffffffc0 095e1294 ffffff80 fffffffe 00000000 1eddc810 ffffffc0
+[    2.931685@0]d 7be0  0ad437d8 ffffff80 0ad43800 ffffff80 0aed5ac8 ffffff80 00000000 00000000
+[    2.940052@0]d 7c00  0a71037c ffffff80 0a7d9f60 ffffff80 00000000 00000000 00000000 00000000
+[    2.948418@0]d
+[    2.950145@0]d Process swapper/0 (pid: 1, stack limit = 0x00000000a3ff826c)
+[    2.957046@0]d Stack: (0xffffffc000287ba0 to 0xffffffc000288000)
+[    2.962999@0]d 7ba0: ffffffc000287bc0 ffffff8009d3b1dc ffffffc033a10000 fefefeff646c606d
+[    2.971019@0]d 7bc0: ffffffc000287c30 ffffff80095e1294 00000000fffffffe ffffffc01eddc810
+[    2.979040@0]d 7be0: ffffff800ad437d8 ffffff800ad43800 ffffff800aed5ac8 0000000000000000
+[    2.987061@0]d 7c00: ffffff800a71037c ffffff800a7d9f60 0000000000000000 0000000000000000
+[    2.995083@0]d 7c20: 0000000000000000 0000000000000000 ffffffc000287c60 ffffff80095deeb4
+[    3.003104@0]d 7c40: ffffffc01eddc810 ffffff800aed5000 0000000000000000 ffffff800ad43800
+[    3.011125@0]d 7c60: ffffffc000287cb0 ffffff80095df1c0 ffffffc01eddc810 ffffff800ad43800
+[    3.019147@0]d 7c80: ffffffc01eddc870 ffffff800acb9468 ffffff800acb8f98 ffffff800a772090
+[    3.027168@0]d 7ca0: ffffffc01eddc810 ffffff800acb9468 ffffffc000287ce0 ffffff80095dc99c
+[    3.035189@0]d 7cc0: 0000000000000000 ffffff800ad43800 ffffff80095df0d0 00000000ffffffe0
+[    3.043210@0]d 7ce0: ffffffc000287d20 ffffff80095de694 ffffff800ad43800 ffffffc0339c86c0
+[    3.051232@0]d 7d00: 0000000000000000 ffffff800acb9468 ffffffc0003a30a8 ffffffc01ee19ba8
+[    3.059253@0]d 7d20: ffffffc000287d40 ffffff80095de288 ffffff800ad43800 ffffffc0339c86c0
+[    3.067274@0]d 7d40: ffffffc000287d80 ffffff80095dfe10 ffffff800ad43800 0000000000000000
+[    3.075295@0]d 7d60: 0000000000000000 0000000000000006 ffffff800a6f7468 0000000000000006
+[    3.083317@0]d 7d80: ffffffc000287da0 ffffff80095e11c8 ffffff800ad437d8 0000000000000000
+[    3.091338@0]d 7da0: ffffffc000287dc0 ffffff800a7523b0 ffffff8009e53ae0 ffffffc000288000
+[    3.099359@0]d 7dc0: ffffffc000287de0 ffffff80090830b8 ffffff800a752374 ffffff80090830b8
+[    3.107380@0]d 7de0: ffffffc000287e50 ffffff800a710d0c 00000000000003ec ffffff800ae09000
+[    3.115402@0]d 7e00: ffffff800a7720a8 0000000000000006 ffffff800a710300 ffffff800a7d9600
+[    3.123422@0]d 7e20: 0000000000000000 0000000000000000 0000000000000000 ffffff800a71037c
+[    3.131444@0]d 7e40: 0000000600000006 ffffff800ae09000 ffffffc000287ea0 ffffff8009d4f150
+[    3.139465@0]d 7e60: ffffff8009d4f134 0000000000000000 0000000000000000 0000000000000000
+[    3.147486@0]d 7e80: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.155508@0]d 7ea0: 0000000000000000 ffffff8009082ec0 ffffff8009d4f134 0000000000000000
+[    3.163529@0]d 7ec0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.171550@0]d 7ee0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.179571@0]d 7f00: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.187592@0]d 7f20: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.195614@0]d 7f40: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.203635@0]d 7f60: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.211656@0]d 7f80: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.219677@0]d 7fa0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.227698@0]d 7fc0: 0000000000000000 0000000000000005 0000000000000000 0000000000000000
+[    3.235720@0]d 7fe0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+[    3.243740@0]d Call trace:
+[    3.246416@0]d Exception stack(0xffffffc0002879d0 to 0xffffffc000287b00)
+[    3.253055@0]d 79c0:                                   fffffffffffffffe 0000007fffffffff
+[    3.261078@0]d 79e0: ffffffc000287ba0 ffffff800954d8e0 0000000000000040 0000000000000006
+[    3.269099@0]d 7a00: 0000000000000000 0000000000000029 ffffff800ae0ea68 0000000000000000
+[    3.277120@0]d 7a20: 0000000100000001 ffffff800ac2f990 ffffffc000287ac0 ffffff800910d59c
+[    3.285141@0]d 7a40: ffffffc000287b20 ffffff800a37ad18 ffffff800ad437d0 fffffffffffffffe
+[    3.293163@0]d 7a60: ffffff8009e53a78 ffffffc01eddc800 ffffff8009d3b1dc ffffffc000288000
+[    3.301184@0]d 7a80: ffffff800ac2f9a8 000000000000018b ffffff80082e2000 0000000000000000
+[    3.309205@0]d 7aa0: 000000000000003c ffffff800ac99cb8 ffffff8009422ee0 ffffff800ae0f000
+[    3.317226@0]d 7ac0: ffffff800a285798 000000000000018b ffffff800ae0efee ffffff808ae0efdf
+[    3.325248@0]d 7ae0: ffffffffffffffff 0000000000000020 000000000000000e 0000000000000007
+[    3.333274@0]d [<0000000011a7c655>] clk_prepare+0x20/0x60
+[    3.338618@0]d [<00000000b9fa013c>] di_probe+0x514/0xf58
+[    3.343880@0]d [<0000000008e92513>] platform_drv_probe+0x64/0xc4
+[    3.349832@0]d [<00000000cd4b1e2b>] driver_probe_device+0x170/0x38c
+[    3.356040@0]d [<0000000098ad6c5e>] __driver_attach+0xf0/0x110
+[    3.361819@0]d [<00000000d9638d40>] bus_for_each_dev+0x7c/0xc0
+[    3.367597@0]d [<00000000509ed70a>] driver_attach+0x34/0x40
+[    3.373117@0]d [<00000000b2f88331>] bus_add_driver+0x1a8/0x214
+[    3.378896@0]d [<000000007f61a4c6>] driver_register+0x80/0x120
+[    3.384674@0]d [<00000000a0224d8f>] __platform_driver_register+0x58/0x64
+[    3.391320@0]d [<000000009d99e18d>] di_module_init+0x3c/0x60
+[    3.396925@0]d [<00000000392e1b79>] do_one_initcall+0x48/0x130
+[    3.402704@0]d [<00000000c8924853>] kernel_init_freeable+0x19c/0x230
+[    3.408999@0]d [<0000000000b83001>] kernel_init+0x1c/0x10c
+[    3.414430@0]d [<0000000080601668>] ret_from_fork+0x10/0x50
+[    3.419952@0]d Code: aa0003f3 aa1e03e0 d503201f b4000173 (f9400273)
+[    3.426256@0]d ---[ end trace e269611b483efba3 ]---
+[    3.439689@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.440043@2]d Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b
+[    3.440043@2]d
+[    3.447932@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.451366@3]- sd: new high speed SDHC card at address 1234
+[    3.456228@3]- sd: clock 50000000, 4-bit-bus-width
+[    3.456228@3]-
+[    3.456229@3]- mmcblk1: sd:1234 SA16G 14.6 GiB
+[    3.457801@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.457802@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.457806@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.457832@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.457839@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.457841@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.457844@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.457895@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.458397@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.458397@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.458399@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.458409@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.458413@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.458415@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.458443@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.459015@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.459016@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.459018@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.459027@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.459030@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.459032@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.459060@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.459634@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.459634@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.459636@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.459646@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.459649@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.459651@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.459678@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.460252@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.460252@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.460255@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.460264@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.460267@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.460269@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.460296@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.460872@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.460873@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.460875@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.460885@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.460889@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.460891@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.460921@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.461489@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.461489@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.461491@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.461501@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.461504@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.461506@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.461533@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.462107@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.462107@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.462110@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.462119@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.462122@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.462124@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.462151@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.462726@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.462726@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.462728@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.462738@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.462741@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.462743@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.462770@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.463344@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.463345@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.463347@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.463356@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.463359@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.463362@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.463388@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.463963@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.463963@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.463966@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.463975@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.463979@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.464038@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.464582@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.464582@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.464584@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.464594@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.464597@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.464599@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.464601@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.464628@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.465201@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.465201@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.465204@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.465213@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.465217@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.465219@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.465247@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.465819@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.465819@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.465821@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.465831@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.465834@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.465836@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.465864@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.466437@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.466437@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.466440@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.466449@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.466452@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.466454@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.466481@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.467056@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.467056@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.467058@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.467067@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.467071@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.467073@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.467099@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.467674@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.467674@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.467677@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.467686@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.467689@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.467691@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.467717@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.467897@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.468293@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.468294@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.468296@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.468306@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.468309@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.468311@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.468338@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.468911@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.468912@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.468914@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.468924@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.468927@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.468929@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.468957@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.469530@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.469530@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.469532@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.469542@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.469545@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.469547@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.469573@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.470148@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.470149@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.470151@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.470160@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.470163@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.470165@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.470192@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.470767@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.470767@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.470769@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.470778@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.470782@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.470832@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.471385@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.471385@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.471387@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.471397@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.471400@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.471402@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.471405@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.471438@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.472004@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.472004@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.472006@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.472016@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.472019@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.472021@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.472047@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.472622@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.472623@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.472625@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.472634@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.472638@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.472640@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.472666@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.473241@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.473242@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.473244@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.473254@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.473257@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.473259@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.473288@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.473860@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.473860@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.473862@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.473872@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.473875@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.473878@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.473904@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.474478@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.474478@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.474480@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.474489@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.474493@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.474495@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.474521@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.475097@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.475097@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.475099@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.475108@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.475111@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.475113@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.475140@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.475715@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.475715@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.475717@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.475727@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.475730@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.475732@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.475758@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.476333@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.476334@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.476336@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.476345@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.476348@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.476350@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.476377@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.476952@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.476953@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.476955@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.476964@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.476967@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.476969@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.476997@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.477570@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.477571@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.477573@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.477582@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.477586@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.477636@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.478189@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.478189@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.478192@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.478201@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.478204@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.478206@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.478208@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.478235@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.478807@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.478808@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.478810@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.478819@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.478822@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.478824@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.478851@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.479425@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.479426@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.479428@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.479437@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.479440@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.479442@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.479469@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.480044@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.480045@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.480047@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.480056@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.480059@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.480061@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.480088@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.480663@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.480663@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.480665@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.480674@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.480678@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.480680@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.480707@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.481281@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.481282@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.481284@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.481293@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.481296@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.481298@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.481327@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.481899@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.481900@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.481902@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.481911@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.481914@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.481916@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.481943@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.482518@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.482519@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.482521@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.482530@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.482534@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.482536@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.482562@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.483137@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.483137@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.483139@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.483149@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.483152@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.483154@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.483180@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.483755@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.483755@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.483757@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.483767@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.483770@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.483772@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.483799@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.484374@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.484374@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.484376@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.484385@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.484388@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.484438@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.484992@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.484993@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.484995@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.485005@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.485008@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.485010@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.485012@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.485040@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.485610@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.485611@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.485613@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.485622@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.485626@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.485628@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.485655@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.486228@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.486229@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.486231@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.486240@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.486243@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.486245@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.486271@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.486847@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.486847@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.486850@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.486859@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.486862@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.486864@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.486891@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.487465@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.487466@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.487468@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.487477@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.487480@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.487482@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.487509@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.487919@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.488084@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.488085@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.488087@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.488097@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.488101@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.488103@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.488130@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.488702@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.488703@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.488705@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.488714@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.488718@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.488720@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.488746@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.489321@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.489322@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.489324@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.489334@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.489337@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.489339@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.489367@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.489940@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.489940@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.489942@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.489952@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.489955@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.489957@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.489984@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.490558@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.490558@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.490561@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.490572@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.490575@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.490577@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.490605@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.491177@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.491177@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.491179@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.491188@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.491192@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.491242@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.491798@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.491798@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.491800@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.491809@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.491813@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.491815@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.491817@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.491843@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.492416@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.492416@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.492418@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.492428@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.492431@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.492433@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.492460@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.493035@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.493035@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.493037@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.493048@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.493051@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.493053@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.493082@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.493653@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.493654@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.493656@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.493665@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.493669@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.493671@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.493698@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.494272@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.494272@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.494274@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.494284@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.494287@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.494289@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.494315@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.494890@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.494891@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.494893@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.494902@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.494905@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.494907@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.494934@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.495509@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.495509@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.495511@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.495520@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.495524@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.495525@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.495552@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.496128@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.496128@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.496130@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.496139@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.496143@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.496145@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.496171@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.496746@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.496746@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.496748@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.496757@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.496761@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.496763@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.496789@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.497365@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.497365@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.497367@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.497377@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.497380@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.497382@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.497411@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.497983@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.497983@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.497986@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.497995@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.497998@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.498049@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.507850@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.527908@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.547872@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.566469@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.566470@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.566473@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.566484@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.566488@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.566491@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.566493@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.566523@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.567076@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.567077@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.567080@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.567089@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.567092@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.567094@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.567122@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.567695@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.567695@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.567697@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.567707@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.567710@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.567712@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.567740@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.567905@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    3.567911@0]h fb: osd rdma restart! 0x0
+[    3.567942@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.568314@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.568314@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.568316@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.568326@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.568330@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.568332@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.568360@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.568931@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.568932@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.568934@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.568943@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.568947@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.568949@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.568978@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.569549@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.569550@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.569552@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.569561@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.569565@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.569567@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.569594@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.570168@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.570169@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.570171@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.570180@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.570183@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.570185@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.570212@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.570786@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.570787@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.570789@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.570798@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.570802@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.570803@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.570830@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.571405@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.571405@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.571407@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.571416@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.571420@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.571422@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.571448@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.572023@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.572023@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.572025@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.572035@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.572038@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.572040@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.572067@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.572642@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.572642@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.572644@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.572665@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.572669@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.572736@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.572748@1]- blk_update_request: I/O error, dev mmcblk1, sector 0
+[    3.572760@1]- Buffer I/O error on dev mmcblk1, logical block 0, async page read
+[    3.573377@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.573378@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.573380@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.573391@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.573395@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.573397@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.573399@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.573430@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.573992@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.573992@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.573994@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.574004@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.574007@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.574009@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.574037@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.574610@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.574610@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.574612@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.574621@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.574625@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.574627@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.574653@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.575229@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.575229@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.575231@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.575240@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.575243@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.575245@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.575273@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.575847@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.575847@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.575849@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.575859@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.575863@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.575865@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.575891@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.576465@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.576466@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.576468@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.576478@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.576481@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.576483@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.576509@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.577084@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.577084@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.577086@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.577096@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.577099@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.577101@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.577130@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.577702@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.577702@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.577704@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.577714@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.577717@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.577719@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.577745@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.578320@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.578321@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.578323@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.578332@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.578335@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.578337@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.578363@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.578939@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.578939@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.578941@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.578950@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.578954@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.578956@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.578982@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.579557@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.579557@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.579559@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.579569@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.579573@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.579625@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.580175@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.580176@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.580178@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.580187@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.580191@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.580193@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.580195@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.580222@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.580794@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.580794@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.580796@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.580805@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.580809@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.580811@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.580838@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.581412@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.581413@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.581415@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.581425@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.581428@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.581430@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.581459@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.582031@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.582031@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.582033@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.582042@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.582046@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.582048@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.582074@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.582649@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.582649@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.582651@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.582660@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.582664@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.582666@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.582693@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.583267@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.583268@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.583270@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.583280@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.583283@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.583285@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.583312@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.583886@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.583886@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.583888@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.583898@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.583901@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.583903@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.583929@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.584504@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.584504@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.584507@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.584516@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.584519@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.584521@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.584548@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.585123@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.585123@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.585125@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.585135@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.585138@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.585140@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.585168@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.585741@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.585741@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.585743@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.585752@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.585756@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.585758@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.585785@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.586360@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.586360@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.586362@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.586372@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.586375@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.586425@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.586978@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.586978@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.586981@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.586990@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.586993@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.586995@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.586997@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.587024@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.587596@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.587597@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.587599@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.587608@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.587611@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.587613@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.587640@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.587871@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.588215@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.588216@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.588218@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.588228@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.588232@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.588234@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.588262@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.588834@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.588834@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.588836@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.588856@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.588859@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.588861@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.588890@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.589452@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.589453@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.589455@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.589464@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.589467@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.589470@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.589496@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.590070@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.590070@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.590073@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.590082@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.590086@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.590088@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.590114@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.590688@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.590689@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.590691@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.590700@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.590703@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.590705@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.590732@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.591307@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.591307@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.591309@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.591322@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.591325@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.591327@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.591354@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.591925@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.591925@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.591927@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.591937@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.591940@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.591942@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.591968@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.592543@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.592543@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.592546@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.592555@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.592558@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.592560@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.592586@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.593162@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.593162@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.593164@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.593174@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.593178@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.593231@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.593780@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.593781@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.593783@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.593792@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.593795@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.593798@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.593800@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.593827@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.594398@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.594399@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.594401@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.594410@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.594414@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.594416@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.594443@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.595017@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.595018@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.595020@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.595029@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.595032@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.595034@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.595061@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.595636@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.595636@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.595638@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.595647@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.595650@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.595652@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.595679@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.596254@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.596254@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.596256@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.596265@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.596269@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.596271@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.596297@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.596873@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.596873@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.596875@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.596885@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.596889@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.596890@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.596918@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.597491@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.597491@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.597493@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.597503@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.597506@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.597508@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.597535@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.598109@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.598109@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.598111@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.598121@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.598124@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.598126@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.598152@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.598727@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.598728@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.598730@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.598739@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.598742@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.598744@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.598771@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.599345@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.599346@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.599348@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.599357@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.599360@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.599362@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.599389@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.599964@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.599965@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.599967@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.599976@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.599979@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.600029@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.600583@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.600583@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.600585@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.600595@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.600598@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.600600@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.600603@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.600629@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.601201@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.601201@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.601203@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.601213@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.601216@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.601218@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.601247@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.601819@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.601820@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.601822@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.601831@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.601835@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.601837@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.601863@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.602437@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.602438@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.602440@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.602449@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.602452@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.602454@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.602481@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.603055@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.603056@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.603058@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.603068@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.603071@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.603073@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.603099@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.603674@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.603675@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.603677@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.603686@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.603689@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.603691@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.603718@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.604292@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.604293@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.604295@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.604304@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.604307@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.604309@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.604336@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.604911@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.604912@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.604914@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.604923@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.604927@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.604929@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.604957@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.605529@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.605529@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.605532@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.605541@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.605544@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.605546@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.605573@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.606148@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.606148@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.606150@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.606159@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.606162@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.606164@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.606191@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.606766@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.606766@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.606768@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.606778@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.606781@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.606831@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.607384@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.607385@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.607387@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.607396@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.607400@0]- meson-mmc: meson_mmc_irq_thread() 2812: set 1st retry!
+[    3.607402@0]- meson-mmc: retry cmd 18 the 10-th time(s)
+[    3.607404@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.607431@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.607916@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.608003@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.608004@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.608006@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.608016@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.608019@0]- meson-mmc: retry cmd 18 the 9-th time(s)
+[    3.608021@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.608049@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.608621@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.608622@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.608624@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.608633@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.608636@0]- meson-mmc: retry cmd 18 the 8-th time(s)
+[    3.608638@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.608665@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.609240@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.609240@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.609242@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.609252@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.609255@0]- meson-mmc: retry cmd 18 the 7-th time(s)
+[    3.609257@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.609286@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.609858@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.609859@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.609861@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.609872@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.609875@0]- meson-mmc: retry cmd 18 the 6-th time(s)
+[    3.609877@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.609904@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.610476@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.610477@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.610479@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.610488@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.610491@0]- meson-mmc: retry cmd 18 the 5-th time(s)
+[    3.610493@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.610520@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.611095@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.611095@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.611097@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.611107@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.611110@0]- meson-mmc: retry cmd 18 the 4-th time(s)
+[    3.611112@0]- meson-mmc: sd, retry, rx_phase 2 -> 3
+[    3.611139@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.611713@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.611714@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.611716@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.611725@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.611728@0]- meson-mmc: retry cmd 18 the 3-th time(s)
+[    3.611730@0]- meson-mmc: sd, retry, rx_phase 3 -> 0
+[    3.611757@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.612332@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.612332@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.612334@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.612343@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.612347@0]- meson-mmc: retry cmd 18 the 2-th time(s)
+[    3.612349@0]- meson-mmc: sd, retry, rx_phase 0 -> 1
+[    3.612375@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.612950@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.612950@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.612952@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.612962@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.612965@0]- meson-mmc: retry cmd 18 the 1-th time(s)
+[    3.612967@0]- meson-mmc: sd, retry, rx_phase 1 -> 2
+[    3.612996@1]- meson-mmc: sd: req failed (CMD18): -84, retrying...
+[    3.613568@0]h meson-mmc: sd: warning... data crc, vstat:0xe1ff000f, virqc:3fff
+[    3.613569@0]h meson-mmc: @ cmd 18 arg 0 with 00000000d8f6bb48; stop 0, status 4
+[    3.613571@0]h meson-mmc: sd: err: wait for irq service, bus_fsm:0x8
+[    3.613581@0]- meson-mmc: meson_mmc_irq_thread 2796 sd: cmd:18
+[    3.613584@0]- meson-mmc: Command retried failed line:2916, cmd:18
+[    3.613634@1]- mmcblk1: response CRC error sending r/w cmd command, card status 0x900
+[    3.613640@1]- blk_update_request: I/O error, dev mmcblk1, sector 0
+[    3.613650@1]- Buffer I/O error on dev mmcblk1, logical block 0, async page read
+[    3.613680@3]-  mmcblk1: unable to read partition table
+[    3.627896@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.647907@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.687906@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.767917@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    3.787841@0]h fb: osd rdma restart! 0x0
+[    3.787857@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.827841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    3.987839@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    3.987841@0]h fb: osd rdma restart! 0x0
+[    3.987851@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.067842@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.087905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.187847@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    4.207902@0]h fb: osd rdma restart! 0x0
+[    4.207912@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.327931@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.347842@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.367906@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.407904@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    4.407909@0]h fb: osd rdma restart! 0x0
+[    4.407925@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.607926@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    4.627838@0]h fb: osd rdma restart! 0x0
+[    4.627848@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.647906@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.827839@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    4.827841@0]h fb: osd rdma restart! 0x0
+[    4.827851@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    4.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.027847@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    5.047902@0]h fb: osd rdma restart! 0x0
+[    5.047912@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.087906@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.247903@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    5.247906@0]h fb: osd rdma restart! 0x0
+[    5.247915@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.307882@0]d vpu: switch_vpu_mem_pd: unsupport vpu mod: 12
+[    5.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.347841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.447924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    5.467838@0]h fb: osd rdma restart! 0x0
+[    5.467847@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.667838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    5.667841@0]h fb: osd rdma restart! 0x0
+[    5.667850@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.827841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.867846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    5.887902@0]h fb: osd rdma restart! 0x0
+[    5.887911@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    5.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.087903@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    6.087905@0]h fb: osd rdma restart! 0x0
+[    6.087916@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.287924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    6.307838@0]h fb: osd rdma restart! 0x0
+[    6.307847@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.347841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.507838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    6.507841@0]h fb: osd rdma restart! 0x0
+[    6.507850@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.707846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    6.727902@0]h fb: osd rdma restart! 0x0
+[    6.727911@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.827841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.927902@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    6.927904@0]h fb: osd rdma restart! 0x0
+[    6.927913@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    6.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.087905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.127924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    7.147838@0]h fb: osd rdma restart! 0x0
+[    7.147847@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.307840@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.347838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    7.347840@0]h fb: osd rdma restart! 0x0
+[    7.347849@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.547846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    7.567902@0]h fb: osd rdma restart! 0x0
+[    7.567910@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.647933@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.667842@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.767903@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    7.767908@0]h fb: osd rdma restart! 0x0
+[    7.767924@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.827841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    7.967924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    7.987837@0]h fb: osd rdma restart! 0x0
+[    7.987846@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.067842@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.087905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.187838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    8.187841@0]h fb: osd rdma restart! 0x0
+[    8.187850@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.347841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.387847@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    8.407902@0]h fb: osd rdma restart! 0x0
+[    8.407911@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.607902@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    8.607905@0]h fb: osd rdma restart! 0x0
+[    8.607914@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.807924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    8.827838@0]h fb: osd rdma restart! 0x0
+[    8.827847@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.887904@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    8.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.027838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    9.027840@0]h fb: osd rdma restart! 0x0
+[    9.027850@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.087906@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.227846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    9.247902@0]h fb: osd rdma restart! 0x0
+[    9.247911@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.347841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.447902@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    9.447904@0]h fb: osd rdma restart! 0x0
+[    9.447913@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.647924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    9.667838@0]h fb: osd rdma restart! 0x0
+[    9.667846@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.787840@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.827840@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.867838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[    9.867841@0]h fb: osd rdma restart! 0x0
+[    9.867850@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[    9.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.067846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   10.087902@0]h fb: osd rdma restart! 0x0
+[   10.087911@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.127905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.287902@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   10.287904@0]h fb: osd rdma restart! 0x0
+[   10.287913@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.347841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.427841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.467840@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.487924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   10.507837@0]h fb: osd rdma restart! 0x0
+[   10.507847@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.547841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.707838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   10.707841@0]h fb: osd rdma restart! 0x0
+[   10.707850@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.767905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.787840@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.827841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.907846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   10.927902@0]h fb: osd rdma restart! 0x0
+[   10.927911@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.967905@0]h dil:err:DI_POST_REG_RD:not attach
+[   10.987868@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.007906@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.027841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.067841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.087905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.107841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.127903@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   11.127908@0]h fb: osd rdma restart! 0x0
+[   11.127923@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.147841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.167905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.187841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.207905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.227841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.247905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.267841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.287905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.307841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.327905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.327924@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   11.347838@0]h fb: osd rdma restart! 0x0
+[   11.347847@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.367905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.387841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.407905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.427840@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.447905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.467841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.487905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.507841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.527905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.547838@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   11.547841@0]h fb: osd rdma restart! 0x0
+[   11.547850@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.567905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.587841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.607905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.627841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.647905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.667841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.687905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.707841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.727905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.747841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.747846@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   11.767902@0]h fb: osd rdma restart! 0x0
+[   11.767910@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.787841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.807905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.827840@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.847905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.867841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.887905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.907841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.927905@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.947841@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.967902@0]h rdma_watchdog_setting rdma reset: 21, force flag:0
+[   11.967904@0]h fb: osd rdma restart! 0x0
+[   11.967913@0]h dil:err:DI_POST_REG_RD:not attach
+[   11.987841@0]h dil:err:DI_POST_REG_RD:not attach
+[   12.007905@0]h dil:err:DI_POST_REG_RD:not attach
+[   12.027840@0]h dil:err:DI_POST_REG_RD:not attach
+[   12.047905@0]h dil:err:DI_POST_REG_RD:not attach
+[   12.063289@2]d SMP: stopping secondary CPUs
+[   12.067397@2]d Kernel Offset: disabled
+[   12.071090@2]d Memory Limit: none
+[   12.090944@2]d Rebooting in 5 seconds..
+[   17.091233@2]d reboot reason 12
+bl31 reboot reason: 0xd
+bl31 reboot reason: 0xc
+system cmd  1.
